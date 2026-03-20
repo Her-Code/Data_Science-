@@ -37,6 +37,25 @@ This code automatically finds those 5 dangerous moments.
 - Data visualisation
 - Anomaly detection
 
+## Project 2: Noise Filter
+
+### What is this project?
+Removes high frequency noise from a signal to recover 
+the original clean data — used in audio, medical devices 
+and industrial sensors.
+
+### How it works
+1. Generates a clean 10Hz sine wave signal
+2. Adds high frequency noise on top (100Hz)
+3. Designs a Butterworth low-pass filter
+4. Filters out everything above 30Hz
+5. Plots before and after to show the difference
+
+### Skills used
+- MATLAB signal processing
+- Butterworth filter design
+- Data visualisation
+
 ### How to run
 1. Open MATLAB or MATLAB Online
 2. Run sensor_analysis.m
